@@ -4,7 +4,6 @@
 # ### 爬虫高级库
 # 
 # scrapy的官网中文文档：https://scrapy-chs.readthedocs.io/zh_CN/0.24/
-#运行此程序时，只需要将python的Scripts加入环境变量即可，当然，如果你把python的路径也加入了也不会有影响
 
 # In[ ]:
 
@@ -27,4 +26,8 @@ class MofanSpider(scrapy.Spider):
         
 # lastly, run this in terminal
 # scrapy runspider webCrawler_scrapy.py -o res.json
+#上面这句是运行此脚本的命令，需在terminal里进行运行，scrapy runspider 是运行命令，webCrawler_scrapy是运行的文件名，-o是输出命令
+#将程序运行结果输出到res.json文件中
+
+#注意：运行此程序时，只需要将python的Scripts加入环境变量即可（不然会出现scrapy不是内部命令的提示），当然，如果你把python的路径也加入了也不会有影响
 
