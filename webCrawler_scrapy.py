@@ -4,6 +4,7 @@
 # ### 爬虫高级库
 # 
 # scrapy的官网中文文档：https://scrapy-chs.readthedocs.io/zh_CN/0.24/
+#运行此程序时，只需要将python的Scripts加入环境变量即可，当然，如果你把python的路径也加入了也不会有影响
 
 # In[ ]:
 
